@@ -1,0 +1,37 @@
+@media print {
+    
+    body {
+        background-color: white;
+    }
+
+    nav {
+        display: none; 
+    }
+    
+    section {
+        page-break-inside: avoid;
+        margin-bottom: 20px;
+    }
+
+    #favoritemedia > div {
+        page-break-before: always;
+    }
+
+    .custom_border, .custom_border2 {
+        border: none;
+    }
+
+    #favoritemedia span {
+        color: black !important;
+    }
+
+    #favoritesite a, #myprojects a, #favoritesite, #myprojects {
+        color: black !important;
+    }
+
+    img {
+        filter: grayscale(100%);
+    }
+        
+}
+
