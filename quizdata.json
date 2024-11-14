@@ -1,0 +1,115 @@
+{
+    "quizzes": {
+      "java": [
+        {
+          "question": "What is the correct way to declare a variable in Java?",
+          "type": "multiple-choice",
+          "options": [
+            "int number = 10;", 
+            "let number = 10;", 
+            "var number: int = 10",
+            "number = 10;"
+          ],
+          "answer": 0
+        },
+        {
+          "question": "Sarah is trying to calculate the size of an array in Java. She creates an array with 5 integers: int[] numbers = {2, 4, 6, 8, 10};. Then she writes the following code to get the array's size: System.out.println(\"Array size: \" + numbers.length); She thinks the array's size will be 6. Does that sound about right?",
+          "type": "multiple-choice",
+          "options": [
+            "Yes", 
+            "No, it is too high", 
+            "No, it is too low"
+          ],
+          "answer": 1
+        },
+        {
+          "question": "Which of the following is the correct way to define a class in Java?",
+          "type": "image-selection",
+          "options": [
+            "url_of_image_1.jpg", 
+            "url_of_image_2.jpg", 
+            "url_of_image_3.jpg"
+          ],
+          "answer": 0
+        },
+        {
+          "question": "Which of the following is not a primitive data type in Java?",
+          "type": "multiple-choice",
+          "options": [
+            "int", 
+            "boolean", 
+            "String",
+            "char"
+          ],
+          "answer": 2
+        },
+        {
+          "question": "Which of the following Java statements will correctly print the String x and not the value of the variable x?",
+          "type": "multiple-choice",
+          "options": [
+            "System.out.print(x);", 
+            "System.out.println(x);", 
+            "print(x);",
+            "System.out.println(\"x\");"
+          ],
+          "answer": 3
+        }
+      ],
+      "python": [
+        {
+          "question": "Which of the following is the correct way to define a function in Python?",
+          "type": "multiple-choice",
+          "options": [
+            "def myFunction():", 
+            "function myFunction() {}", 
+            "def myFunction[]:",
+            "function myFunction():"
+          ],
+          "answer": 0
+        },
+        {
+          "question": "John is learning Python and is trying to calculate the length of a string. He has the following code: my_string = \"Hello, World!\" print(len(my_string)) He thinks the length of the string is 13 characters. Does that sound about right?",
+          "type": "multiple-choice",
+          "options": [
+            "Yes", 
+            "No, it is too high", 
+            "No, it is too low"
+          ],
+          "answer": 0
+        },
+        {
+          "question": "Which of the following shows the correct syntax for a `for` loop in Python?",
+          "type": "image-selection",
+          "options": [
+            "url_of_image_1.jpg", 
+            "url_of_image_2.jpg", 
+            "url_of_image_3.jpg"
+          ],
+          "answer": 0
+        },
+        {
+          "question": "Which of the following is the correct way to comment a single line in Python?",
+          "type": "multiple-choice",
+          "options": [
+            "# This is a comment", 
+            "// This is a comment", 
+            "/* This is a comment */",
+            "' This is a comment"
+          ],
+          "answer": 0
+        },
+        {
+          "question": "If x = 10 and y = 5, what is the output of the following Python code: print(x // y)?",
+          "type": "multiple-choice",
+          "options": [
+            "2", 
+            "1", 
+            "10",
+            "5"
+          ],
+          "answer": 0
+        }
+      ]
+    }
+  }
+  
